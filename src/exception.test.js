@@ -1,7 +1,7 @@
 import { MyException, sayName } from "./exception";
 
 describe("String", () => {
-  test("exception", () => {
+  test("exception happens", () => {
     expect(() => sayName("wafa")).toThrow();
     expect(() => sayName("wafa")).toThrow(MyException);
     expect(() => sayName("wafa")).toThrow("Ups!");
