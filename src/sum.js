@@ -11,3 +11,23 @@ export function sumAll(numbers) {
 
   return total;
 }
+
+export function calculate(numbers, callback) {
+  let total = 0;
+
+  for (const number of numbers) {
+    total += number;
+  }
+
+  callback(total);
+}
+
+export function calculateAndReturn(numbers, callback) {
+  let total = 0;
+
+  for (const number of numbers) {
+    total += number;
+  }
+
+  return callback(total);
+}
