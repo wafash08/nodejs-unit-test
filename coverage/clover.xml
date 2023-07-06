@@ -1,23 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1688624425605" clover="3.2.0">
-  <project timestamp="1688624425605" name="All files">
-    <metrics statements="24" coveredstatements="3" conditionals="4" coveredconditionals="0" methods="9" coveredmethods="1" elements="37" coveredelements="4" complexity="0" loc="24" ncloc="24" packages="1" files="3" classes="3"/>
+<coverage generated="1688674176497" clover="3.2.0">
+  <project timestamp="1688674176497" name="All files">
+    <metrics statements="30" coveredstatements="4" conditionals="4" coveredconditionals="0" methods="13" coveredmethods="2" elements="47" coveredelements="6" complexity="0" loc="30" ncloc="30" packages="1" files="5" classes="5"/>
     <file name="async.js" path="C:\Users\Wafi\Documents\Website\nodeJs\nodejs-unit-test\src\async.js">
-      <metrics statements="8" coveredstatements="3" conditionals="2" coveredconditionals="0" methods="4" coveredmethods="1"/>
+      <metrics statements="8" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="4" coveredmethods="0"/>
       <line num="2" count="0" type="stmt"/>
       <line num="3" count="0" type="stmt"/>
       <line num="4" count="0" type="cond" truecount="0" falsecount="2"/>
       <line num="5" count="0" type="stmt"/>
       <line num="7" count="0" type="stmt"/>
-      <line num="13" count="1" type="stmt"/>
-      <line num="14" count="2" type="stmt"/>
-      <line num="15" count="1" type="stmt"/>
+      <line num="13" count="0" type="stmt"/>
+      <line num="14" count="0" type="stmt"/>
+      <line num="15" count="0" type="stmt"/>
+    </file>
+    <file name="database.js" path="C:\Users\Wafi\Documents\Website\nodeJs\nodejs-unit-test\src\database.js">
+      <metrics statements="4" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="3" count="0" type="stmt"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="8" count="0" type="stmt"/>
     </file>
     <file name="exception.js" path="C:\Users\Wafi\Documents\Website\nodeJs\nodejs-unit-test\src\exception.js">
       <metrics statements="3" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
       <line num="4" count="0" type="cond" truecount="0" falsecount="2"/>
       <line num="5" count="0" type="stmt"/>
       <line num="8" count="0" type="stmt"/>
+    </file>
+    <file name="product-service.js" path="C:\Users\Wafi\Documents\Website\nodeJs\nodejs-unit-test\src\product-service.js">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="9" count="1" type="stmt"/>
     </file>
     <file name="sum.js" path="C:\Users\Wafi\Documents\Website\nodeJs\nodejs-unit-test\src\sum.js">
       <metrics statements="13" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="0"/>
